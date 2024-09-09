@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 60px; /* Increase padding for extra space inside the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Increase width */
+    min-height: 550px; /* Increase height */
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 40px; /* Increase margin between input fields */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 20px; /* Increase button size */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-footer {
+    margin-top: 40px; /* Increase space above footer links */
+    text-align: center;
+  }
+  
+  .btn_frgtn {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .creat_act_btn {
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    padding: 20px; /* Increase button size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .creat_act_btn:hover {
+    background-color: #218838;
+  }
+  
